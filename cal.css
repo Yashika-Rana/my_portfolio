@@ -1,0 +1,39 @@
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 500px;
+}
+.container{
+	width: 250px;
+	height: 300px;
+	background: olive;/*#3a4452*/
+	border-radius: 10px;
+}
+.container div input{
+	height: 50px;
+	width: 50px;
+	font-size: 1.5pc;
+	border-radius: 50%;
+	border: none;
+	box-shadow: -2px -2px 5px white;
+	background: transparent;
+	 color:rgba(255, 255, 255, 0.5);
+}
+.container form div{
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 7px;
+	
+}
+.container form div .display{
+	width: 230px;
+	font-size: 2.5pc;
+	border-radius: 0px;
+	border: none;
+	text-align: right;
+}
+.container div input:hover{
+	background: rgba(255, 255, 255, 0.5);
+	color:  rgba(255, 255, 255, 0.9);
+}
